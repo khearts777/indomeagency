@@ -426,3 +426,709 @@ margin:10px 0;
 display:block;
 
 }
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+
+<h2>Indome Agency</h2>
+
+<p>Nothing Beats An Indome Holiday</p>
+
+</div>
+
+
+<nav>
+
+<a href="#packages">Packages</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+
+
+
+<section class="hero">
+
+<h1>
+Luxury Indonesia Escapes
+</h1>
+
+
+<p>
+Discover breathtaking destinations,
+exclusive stays and unforgettable experiences.
+</p>
+
+
+<a href="#packages" class="button">
+Explore Packages
+</a>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="packages" id="packages">
+
+
+<h2 class="title">
+Our Luxury Holiday Packages
+</h2>
+
+
+
+
+
+<!-- CITY GIRL -->
+
+
+<div class="package-card">
+
+
+<div class="package-title city" onclick="openPackage('cityDetails')">
+
+🏙️ City-Girl Holiday
+
+</div>
+
+
+
+<div class="details" id="cityDetails">
+
+
+<h2>
+🏙️ City-Girl Holiday
+</h2>
+
+
+<h3>
+5 Days 4 Nights
+</h3>
+
+
+<p>
+Perfect for: Shopping lovers, foodies,
+and people who enjoy luxury.
+</p>
+
+
+
+<h3>
+Day 1 – Jakarta
+</h3>
+
+<ul>
+
+<li>✈️ Airport pickup</li>
+
+<li>🏨 Check into a 5-star hotel</li>
+
+<li>🍽️ Welcome dinner</li>
+
+<li>🛍️ Visit Grand Indonesia Mall</li>
+
+</ul>
+
+
+
+
+<h3>
+Day 2 – Jakarta
+</h3>
+
+<ul>
+
+<li>Shopping at Plaza Indonesia</li>
+
+<li>Café hopping</li>
+
+<li>Kota Tua (Old Town)</li>
+
+<li>Sunset rooftop dinner</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 3 – Bandung
+</h3>
+
+<ul>
+
+<li>Travel to Bandung</li>
+
+<li>The Great Asia Africa</li>
+
+<li>Factory outlet shopping</li>
+
+<li>Luxury spa</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 4 – Bandung
+</h3>
+
+<ul>
+
+<li>Scenic café brunch</li>
+
+<li>Floating Market Lembang</li>
+
+<li>Souvenir shopping</li>
+
+<li>Free evening</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 5
+</h3>
+
+<ul>
+
+<li>Hotel breakfast</li>
+
+<li>Airport transfer</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Package Includes
+</h3>
+
+
+<ul>
+
+<li>⭐ 5-star hotel</li>
+
+<li>🚐 Airport transfers</li>
+
+<li>🍽️ Breakfast daily</li>
+
+<li>🛍️ Shopping guide</li>
+
+<li>📸 Photo stops</li>
+
+</ul>
+
+
+<br>
+
+
+<a href="#contact" class="button">
+Book Now
+</a>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- URBAN ADVENTURE -->
+
+
+<div class="package-card">
+
+
+<div class="package-title adventure" onclick="openPackage('adventureDetails')">
+
+
+🎈 Urban Adventure
+
+
+</div>
+
+
+
+<div class="details" id="adventureDetails">
+
+
+<h2>
+🎈 Urban Adventure
+</h2>
+
+
+<h3>
+5 Days 4 Nights
+</h3>
+
+
+
+<p>
+Perfect for: Nature lovers and thrill seekers.
+</p>
+
+
+
+
+<h3>
+Day 1 – Yogyakarta
+</h3>
+
+
+<ul>
+
+<li>Airport pickup</li>
+
+<li>Malioboro Street</li>
+
+<li>Local food tasting</li>
+
+</ul>
+
+
+
+
+<h3>
+Day 2
+</h3>
+
+
+<ul>
+
+<li>🌄 Borobudur Sunrise Tour</li>
+
+<li>🎈 Hot-air balloon experience</li>
+
+<li>Village cycling</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 3
+</h3>
+
+
+<ul>
+
+<li>🚙 Jeep adventure on Mount Merapi</li>
+
+<li>Lava Museum</li>
+
+<li>Campfire dinner</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 4
+</h3>
+
+
+<ul>
+
+<li>Waterfall trekking</li>
+
+<li>Cave tubing</li>
+
+<li>Cultural performance</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 5
+</h3>
+
+
+<ul>
+
+<li>Souvenir shopping</li>
+
+<li>Airport transfer</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Package Includes
+</h3>
+
+
+<ul>
+
+<li>🚙 Jeep tour</li>
+
+<li>🎈 Hot-air balloon</li>
+
+<li>🥾 Guided hikes</li>
+
+<li>🍽️ Meals</li>
+
+<li>🏨 Hotel stay</li>
+
+</ul>
+
+
+
+<br>
+
+
+<a href="#contact" class="button">
+Book Now
+</a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- OUTLANDER -->
+
+
+<div class="package-card">
+
+
+<div class="package-title outlander" onclick="openPackage('outlanderDetails')">
+
+
+🌴 Outlander Package (Chic Nomad)
+
+
+</div>
+
+
+
+
+<div class="details" id="outlanderDetails">
+
+
+<h2>
+🌴 Outlander Package (Chic Nomad)
+</h2>
+
+
+
+<h3>
+5 Days 4 Nights
+</h3>
+
+
+
+<p>
+Perfect for: Relaxation and beautiful scenery.
+</p>
+
+
+
+
+
+<h3>
+Day 1 – Bali
+</h3>
+
+
+<ul>
+
+<li>Airport pickup</li>
+
+<li>Beach resort check-in</li>
+
+<li>Sunset dinner</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 2
+</h3>
+
+
+<ul>
+
+<li>Tanah Lot Temple</li>
+
+<li>Beach picnic</li>
+
+<li>Spa session</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 3
+</h3>
+
+
+<ul>
+
+<li>Nusa Penida island tour</li>
+
+<li>Snorkelling</li>
+
+<li>Crystal Bay</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 4
+</h3>
+
+
+<ul>
+
+<li>Luxury glamping</li>
+
+<li>Campfire</li>
+
+<li>Stargazing</li>
+
+<li>BBQ dinner</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Day 5
+</h3>
+
+
+<ul>
+
+<li>Morning beach walk</li>
+
+<li>Souvenir shopping</li>
+
+<li>Airport transfer</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Package Includes
+</h3>
+
+
+<ul>
+
+<li>🏖️ Beach resort</li>
+
+<li>⛺ Luxury glamping</li>
+
+<li>🚤 Island tour</li>
+
+<li>🤿 Snorkelling</li>
+
+<li>🚐 Airport transfers</li>
+
+</ul>
+
+
+
+
+<br>
+
+
+<a href="#contact" class="button">
+Book Now
+</a>
+
+
+</div>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="offer">
+
+
+<h2>
+✨ Exclusive Indome Offer
+</h2>
+
+
+<p>
+Book your luxury Indonesian holiday today
+and receive special travel benefits.
+</p>
+
+
+<br>
+
+
+<a href="#contact" class="button">
+Reserve Your Trip
+</a>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="contact" class="contact">
+
+
+<h2 class="title">
+Contact Us
+</h2>
+
+
+<div class="contact-box">
+
+
+<p>📧 indomeagency@gmail.com</p>
+
+<p>📱 +65 8888 8888</p>
+
+<p>🤍 Your dream luxury holiday awaits.</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer>
+
+
+© 2026 Indome Agency
+<br>
+Nothing Beats An Indome Holiday
+
+
+</footer>
+
+
+
+
+
+
+
+<script>
+
+
+function openPackage(id){
+
+
+let box=document.getElementById(id);
+
+
+if(box.style.display==="block"){
+
+box.style.display="none";
+
+}
+
+else{
+
+box.style.display="block";
+
+}
+
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>
