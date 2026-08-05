@@ -469,9 +469,6 @@ Our Signature Packages
 
 <div class="banner city" onclick="openPackage('city')">
 
-<h2>
-🏙️ City-Girl Holiday
-</h2>
 
 </div>
 
@@ -623,9 +620,6 @@ Book Now
 <div class="banner adventure" onclick="openPackage('adventure')">
 
 
-<h2>
-🎈 Urban Adventure
-</h2>
 
 
 </div>
@@ -762,9 +756,7 @@ Book Now
 <div class="banner outlander" onclick="openPackage('outlander')">
 
 
-<h2>
-🌴 Outlander Package
-</h2>
+
 
 
 </div>
