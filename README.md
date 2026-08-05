@@ -279,7 +279,7 @@ text-align:center;
 
 <div class="logo">
 <h2>🌴 Indome Agency</h2>
-<p>Nothing Beats An Indome Holiday</p>
+<p>Nothing Beats An Indome Holiday.If you sign up for an indome holiday right now, you can save up to 50 dollar per person! Thats 200 dollars for a family of 4!</p>
 </div>
 
 
@@ -486,7 +486,7 @@ Contact Us
 
 <p>📧 indomeagency@gmail.com</p>
 
-<p>📱 +65 8888 8888</p>
+<p>📱 +65 11111111</p>
 
 </div>
 
