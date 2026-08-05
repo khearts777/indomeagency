@@ -726,6 +726,8 @@ Claim Offer
 
 
 
+
+
 <footer>
 
 
@@ -736,6 +738,618 @@ Nothing Beats An Indome Holiday
 
 </footer>
 
+
+
+
+</body>
+
+</html>
+
+/* OFFER SECTION */
+
+.offer{
+
+margin:80px 10%;
+
+padding:60px;
+
+background:linear-gradient(135deg,#ff9966,#ffc371);
+
+border-radius:30px;
+
+text-align:center;
+
+color:white;
+
+}
+
+
+.offer h2{
+
+font-size:45px;
+
+margin-bottom:20px;
+
+}
+
+
+.offer p{
+
+font-size:20px;
+
+margin-bottom:30px;
+
+}
+
+
+
+
+
+/* CONTACT */
+
+.contact{
+
+padding:80px 10%;
+
+text-align:center;
+
+}
+
+
+.contact-box{
+
+background:white;
+
+padding:40px;
+
+border-radius:25px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+max-width:600px;
+
+margin:auto;
+
+}
+
+
+.contact-box p{
+
+font-size:18px;
+
+margin:15px;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+footer{
+
+background:#333;
+
+color:white;
+
+text-align:center;
+
+padding:30px;
+
+}
+
+
+
+
+@media(max-width:900px){
+
+header{
+
+flex-direction:column;
+
+}
+
+
+nav{
+
+margin-top:15px;
+
+}
+
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+
+.package-banner{
+
+font-size:30px;
+
+height:250px;
+
+}
+
+
+}
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- HEADER -->
+
+
+<header>
+
+
+<div class="logo">
+
+<h2>🌴 Indome Agency</h2>
+
+<p>Nothing Beats An Indome Holiday</p>
+
+</div>
+
+
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#city">City Girl</a>
+
+<a href="#adventure">Adventure</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+
+
+<!-- HERO -->
+
+
+<section class="hero" id="home">
+
+
+<h1>
+Nothing Beats An Indome Agency
+</h1>
+
+
+<p>
+Experience Indonesia like never before —
+from luxury city escapes to exciting adventures.
+</p>
+
+
+<a href="#city" class="button">
+Explore Packages
+</a>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- CITY GIRL PACKAGE -->
+
+
+<div class="package-banner city-banner" id="city">
+
+🏙️ City-Girl Holiday
+
+</div>
+
+
+
+
+<div class="package-container">
+
+
+<div class="card">
+
+
+<h2>
+🏙️ City-Girl Holiday
+</h2>
+
+
+<h3>
+5 Days 4 Nights
+</h3>
+
+
+<p>
+Perfect for shopping lovers,
+foodies and people who enjoy luxury.
+</p>
+
+
+
+<h3>
+📍 Day 1 – Jakarta
+</h3>
+
+<ul>
+
+<li>✈️ Airport pickup</li>
+
+<li>🏨 Check into a 5-star hotel</li>
+
+<li>🍽️ Welcome dinner</li>
+
+<li>🛍️ Visit Grand Indonesia Mall</li>
+
+</ul>
+
+
+
+
+<h3>
+📍 Day 2 – Jakarta
+</h3>
+
+
+<ul>
+
+<li>🛍️ Shopping at Plaza Indonesia</li>
+
+<li>☕ Café hopping</li>
+
+<li>🏛️ Visit Kota Tua (Old Town)</li>
+
+<li>🌅 Sunset rooftop dinner</li>
+
+</ul>
+
+
+
+
+
+<h3>
+📍 Day 3 – Bandung
+</h3>
+
+
+<ul>
+
+<li>🚗 Travel to Bandung</li>
+
+<li>🌏 The Great Asia Africa</li>
+
+<li>🛒 Factory outlets</li>
+
+<li>💆 Luxury spa</li>
+
+</ul>
+
+
+
+
+<h3>
+📍 Day 4 – Bandung
+</h3>
+
+
+<ul>
+
+<li>🥐 Scenic café brunch</li>
+
+<li>🌊 Floating Market Lembang</li>
+
+<li>🎁 Souvenir shopping</li>
+
+<li>✨ Free evening</li>
+
+</ul>
+
+
+
+
+<h3>
+Package Includes
+</h3>
+
+
+<ul>
+
+<li>⭐ 5-star hotel</li>
+
+<li>🚐 Airport transfers</li>
+
+<li>🍽️ Breakfast daily</li>
+
+<li>🛍️ Shopping guide</li>
+
+<li>📸 Photo stops</li>
+
+</ul>
+
+
+<br>
+
+
+<a href="#contact" class="button">
+Book City-Girl Holiday
+</a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- ADVENTURE PACKAGE -->
+
+
+<div class="package-banner adventure-banner" id="adventure">
+
+🎈 Urban Adventure
+
+</div>
+
+
+
+
+
+
+<div class="package-container">
+
+
+<div class="card">
+
+
+<h2>
+🎈 Urban Adventure
+</h2>
+
+
+<h3>
+5 Days 4 Nights
+</h3>
+
+
+
+<p>
+Perfect for nature lovers
+and thrill seekers.
+</p>
+
+
+
+
+
+<h3>
+📍 Day 1 – Yogyakarta
+</h3>
+
+
+<ul>
+
+<li>✈️ Airport pickup</li>
+
+<li>🛍️ Malioboro Street</li>
+
+<li>🍜 Local food tasting</li>
+
+</ul>
+
+
+
+
+
+<h3>
+📍 Day 2
+</h3>
+
+
+<ul>
+
+<li>🌄 Borobudur Sunrise Tour</li>
+
+<li>🎈 Hot-air balloon experience</li>
+
+<li>🚲 Village cycling</li>
+
+</ul>
+
+
+
+
+
+<h3>
+📍 Day 3
+</h3>
+
+
+<ul>
+
+<li>🚙 Mount Merapi Jeep Adventure</li>
+
+<li>🌋 Lava Museum</li>
+
+<li>🔥 Campfire dinner</li>
+
+</ul>
+
+
+
+
+
+<h3>
+📍 Day 4
+</h3>
+
+
+<ul>
+
+<li>🥾 Waterfall trekking</li>
+
+<li>🌊 Cave tubing</li>
+
+<li>🎭 Cultural performance</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Package Includes
+</h3>
+
+
+<ul>
+
+<li>🚙 Jeep tour</li>
+
+<li>🎈 Hot-air balloon</li>
+
+<li>🥾 Guided hikes</li>
+
+<li>🍽️ Meals</li>
+
+<li>🏨 Hotel stay</li>
+
+</ul>
+
+
+
+<br>
+
+
+<a href="#contact" class="button">
+Book Urban Adventure
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- OFFER -->
+
+
+<section class="offer">
+
+
+<h2>
+🎉 Special Indome Offer
+</h2>
+
+
+<p>
+Sign up for an Indome Holiday today
+and receive exclusive travel benefits!
+</p>
+
+
+<a href="#contact" class="button">
+Claim Offer
+</a>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section class="contact" id="contact">
+
+
+<h2 class="section-title">
+📞 Contact Us
+</h2>
+
+
+
+<div class="contact-box">
+
+
+<p>
+📧 indomeagency@gmail.com
+</p>
+
+
+<p>
+📱 +65 8888 8888
+</p>
+
+
+<p>
+🌴 Your dream Indonesia holiday starts here!
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer>
+
+
+<p>
+© 2026 Indome Agency
+<br>
+Nothing Beats An Indome Holiday ✈️
+</p>
+
+
+</footer>
 
 
 
