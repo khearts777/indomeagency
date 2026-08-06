@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<All travel plans are not exact!>
 <html lang="en">
 
 <head>
@@ -578,7 +578,7 @@ Day 1 – Jakarta
 
 <li>🍽️ Welcome dinner</li>
 
-<li>🛍️ Grand Indonesia Mall</li>
+<li>🛍️ Indonesia Mall</li>
 
 </ul>
 
@@ -595,7 +595,7 @@ Day 2 – Jakarta
 
 <li>Café hopping</li>
 
-<li>Kota Tua Old Town</li>
+<li>Visit an old town</li>
 
 <li>Sunset rooftop dinner</li>
 
@@ -631,7 +631,7 @@ Day 4 – Bandung
 
 <li>Scenic café brunch</li>
 
-<li>Floating Market Lembang</li>
+<li>Floating Market </li>
 
 <li>Souvenir shopping</li>
 
@@ -723,7 +723,7 @@ Day 1 – Yogyakarta
 
 <li>Airport pickup</li>
 
-<li>Malioboro Street</li>
+<li>Famous Street</li>
 
 <li>Local food tasting</li>
 
@@ -738,7 +738,7 @@ Day 2
 
 <ul>
 
-<li>🌄 Borobudur Sunrise Tour</li>
+<li>🌄 Sunrise Tour</li>
 
 <li>🎈 Hot-air balloon experience</li>
 
@@ -755,7 +755,7 @@ Day 3
 
 <ul>
 
-<li>🚙 Mount Merapi Jeep Adventure</li>
+<li>🚙 Jeep Adventure</li>
 
 <li>Lava Museum</li>
 
