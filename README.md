@@ -8,10 +8,9 @@
 
 <title>Indome Agency | Luxury Indonesia Holidays</title>
 
-
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap');
 
 
 *{
@@ -23,76 +22,58 @@
 
 
 body{
-
     background:#faf7f0;
     color:#3a2f25;
     font-family:'Poppins',sans-serif;
-
 }
 
 
 h1,h2,h3{
-
-    font-family:'Cormorant Garamond',serif;
-
+    font-family:'Playfair Display',serif;
 }
 
 
 
-
-/* NAVBAR */
-
+/* HEADER */
 
 header{
 
     background:#fffaf2;
-
     padding:20px 8%;
 
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
 
     position:sticky;
-
     top:0;
+    z-index:1000;
 
-    z-index:999;
-
-    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    box-shadow:0 5px 20px rgba(0,0,0,.12);
 
 }
-
 
 
 .logo h2{
 
     color:#c9a45c;
-
-    font-size:36px;
+    font-size:35px;
 
 }
-
 
 
 .logo p{
 
     font-size:13px;
-
     letter-spacing:1px;
 
 }
 
 
 
-
-
 nav a{
 
     text-decoration:none;
-
     color:#3a2f25;
 
     margin-left:25px;
@@ -100,7 +81,6 @@ nav a{
     font-weight:600;
 
 }
-
 
 
 nav a:hover{
@@ -112,50 +92,38 @@ nav a:hover{
 
 
 
-
-
-
 /* HERO */
 
 
 .hero{
 
+    height:95vh;
 
-height:95vh;
+    background:
 
+    linear-gradient(
+    rgba(0,0,0,.35),
+    rgba(0,0,0,.35)
+    ),
 
-background:
-
-linear-gradient(
-rgba(0,0,0,.35),
-rgba(0,0,0,.35)
-),
-
-url("https://images.unsplash.com/photo-1537996194471-e657df975ab4");
+    url("https://images.unsplash.com/photo-1537996194471-e657df975ab4");
 
 
-
-background-size:cover;
-
-background-position:center;
+    background-size:cover;
+    background-position:center;
 
 
-display:flex;
+    display:flex;
+    flex-direction:column;
 
-flex-direction:column;
+    justify-content:center;
+    align-items:center;
 
-justify-content:center;
+    text-align:center;
 
-align-items:center;
+    color:white;
 
-
-text-align:center;
-
-color:white;
-
-
-padding:20px;
-
+    padding:20px;
 
 }
 
@@ -165,7 +133,7 @@ padding:20px;
 
     font-size:85px;
 
-    letter-spacing:2px;
+    letter-spacing:3px;
 
 }
 
@@ -175,7 +143,7 @@ padding:20px;
 
     font-size:22px;
 
-    max-width:750px;
+    max-width:700px;
 
     margin:25px;
 
@@ -184,26 +152,21 @@ padding:20px;
 
 
 
-
 .button{
 
+    background:#c9a45c;
 
-background:#c9a45c;
+    color:white;
 
-color:white;
+    padding:16px 40px;
 
-padding:16px 40px;
+    border-radius:50px;
 
-border-radius:50px;
+    text-decoration:none;
 
-text-decoration:none;
+    font-weight:bold;
 
-font-weight:bold;
-
-transition:.3s;
-
-display:inline-block;
-
+    transition:.3s;
 
 }
 
@@ -221,25 +184,20 @@ display:inline-block;
 
 
 
-
-
-/* TITLES */
+/* SECTION TITLE */
 
 
 .section-title{
 
-text-align:center;
+    text-align:center;
 
-font-size:55px;
+    color:#c9a45c;
 
-color:#c9a45c;
+    font-size:55px;
 
-margin-bottom:50px;
+    margin-bottom:40px;
 
 }
-
-
-
 
 
 
@@ -249,54 +207,35 @@ margin-bottom:50px;
 
 .why{
 
-padding:90px 10%;
+    padding:90px 10%;
 
 }
-
 
 
 
 .why-cards{
 
+    display:grid;
 
-display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
-gap:30px;
-
+    gap:30px;
 
 }
-
 
 
 
 .why-card{
 
+    background:white;
 
-background:white;
+    padding:35px;
 
-padding:35px;
+    border-radius:25px;
 
-border-radius:25px;
+    text-align:center;
 
-text-align:center;
-
-box-shadow:0 10px 25px rgba(0,0,0,.1);
-
-border-top:5px solid #c9a45c;
-
-transition:.3s;
-
-
-}
-
-
-
-
-.why-card:hover{
-
-transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
 
 }
 
@@ -304,21 +243,16 @@ transform:translateY(-10px);
 
 .why-card h3{
 
-font-size:30px;
+    color:#c9a45c;
 
-color:#c9a45c;
+    font-size:30px;
 
-margin-bottom:15px;
+    margin-bottom:15px;
 
 }
 
 
-
-.why-card p{
-
-line-height:1.7;
-
-}</style>
+</style>
 
 </head>
 
@@ -326,8 +260,8 @@ line-height:1.7;
 <body>
 
 
-
 <header>
+
 
 <div class="logo">
 
@@ -338,13 +272,17 @@ line-height:1.7;
 </div>
 
 
+
 <nav>
 
 <a href="#packages">Packages</a>
 
+<a href="#booking">Booking</a>
+
 <a href="#contact">Contact</a>
 
 </nav>
+
 
 
 </header>
@@ -362,18 +300,18 @@ Luxury Indonesia Escapes
 
 
 <p>
-Curated journeys, premium stays and unforgettable experiences across Indonesia.
+Experience unforgettable journeys,
+beautiful destinations and premium stays.
 </p>
 
 
-<a class="button" href="#packages">
+<a href="#packages" class="button">
 Explore Packages
 </a>
 
 
+
 </section>
-
-
 
 
 
@@ -393,12 +331,10 @@ Why Choose Indome?
 
 <div class="why-card">
 
-<h3>
-🏨 Luxury Stays
-</h3>
+<h3>🏨 Luxury Stays</h3>
 
 <p>
-Hand-picked hotels, resorts and unique accommodations for a comfortable journey.
+Carefully selected hotels and resorts for your comfort.
 </p>
 
 </div>
@@ -407,12 +343,10 @@ Hand-picked hotels, resorts and unique accommodations for a comfortable journey.
 
 <div class="why-card">
 
-<h3>
-🌏 Unique Experiences
-</h3>
+<h3>✈️ Easy Travel</h3>
 
 <p>
-From temples and islands to city adventures, discover Indonesia in style.
+Airport transfers and travel planning handled for you.
 </p>
 
 </div>
@@ -422,30 +356,20 @@ From temples and islands to city adventures, discover Indonesia in style.
 
 <div class="why-card">
 
-<h3>
-🧳 Stress-Free Travel
-</h3>
+<h3>✨ Unique Experiences</h3>
 
 <p>
-We arrange transport, activities and unforgettable moments for you.
+Create memories with exclusive Indonesian adventures.
 </p>
 
 </div>
 
 
+
 </div>
 
 
-</section>
-
-
-
-
-
-
-
-
-
+</section><!-- PACKAGES SECTION -->
 
 <section id="packages" class="packages">
 
@@ -456,25 +380,174 @@ Our Signature Packages
 
 
 
+<style>
+
+
+.packages{
+
+    padding:90px 10%;
+
+}
+
+
+
+.package-card{
+
+    margin-bottom:50px;
+
+}
+
+
+
+.package-banner{
+
+    height:280px;
+
+    border-radius:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:45px;
+
+    font-family:'Playfair Display',serif;
+
+    cursor:pointer;
+
+    background-size:cover;
+
+    background-position:center;
+
+    text-shadow:0 3px 15px black;
+
+    transition:.4s;
+
+}
+
+
+
+.package-banner:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+
+
+.city{
+
+background:
+
+linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+
+url("https://images.unsplash.com/photo-1555899434-94d1368aa7af");
+
+}
+
+
+
+.adventure{
+
+background:
+
+linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+
+url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b");
+
+}
+
+
+
+
+.outlander{
+
+background:
+
+linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+
+url("https://images.unsplash.com/photo-1537996194471-e657df975ab4");
+
+}
+
+
+
+.itinerary{
+
+display:none;
+
+background:white;
+
+padding:40px;
+
+border-radius:25px;
+
+margin-top:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+
+
+.itinerary h2{
+
+color:#c9a45c;
+
+}
+
+
+
+.itinerary h3{
+
+color:#a88648;
+
+margin-top:20px;
+
+}
+
+
+
+.itinerary li{
+
+margin:10px 0;
+
+}
+
+
+
+</style>
 
 
 
 
 
-<!-- PACKAGE 1 -->
+
+
+<!-- CITY GIRL -->
 
 
 <div class="package-card">
 
 
-<div class="banner city" onclick="openPackage('city')">
+<div class="package-banner city"
+onclick="openTrip('cityTrip')">
+
+
+🏙️ City-Girl Holiday
 
 
 </div>
 
 
 
-<div class="details" id="city">
+
+<div class="itinerary" id="cityTrip">
 
 
 <h2>
@@ -488,9 +561,8 @@ Our Signature Packages
 
 
 <p>
-Perfect for shopping lovers, foodies and luxury travellers.
+Perfect for: Shopping lovers, foodies and luxury travellers.
 </p>
-
 
 
 
@@ -502,14 +574,13 @@ Day 1 – Jakarta
 
 <li>✈️ Airport pickup</li>
 
-<li>🏨 5-star hotel check-in</li>
+<li>🏨 Check into a 5-star hotel</li>
 
 <li>🍽️ Welcome dinner</li>
 
 <li>🛍️ Grand Indonesia Mall</li>
 
 </ul>
-
 
 
 
@@ -533,7 +604,6 @@ Day 2 – Jakarta
 
 
 
-
 <h3>
 Day 3 – Bandung
 </h3>
@@ -549,7 +619,6 @@ Day 3 – Bandung
 <li>Luxury spa</li>
 
 </ul>
-
 
 
 
@@ -571,10 +640,8 @@ Day 4 – Bandung
 
 
 
-
 <h3>
-Includes
-</h3>
+Includes</h3>
 
 <ul>
 
@@ -586,14 +653,13 @@ Includes
 
 <li>🛍️ Shopping guide</li>
 
-<li>📸 Photo stops</li>
-
 </ul>
 
 
+<br>
 
-<a class="button">
-Book Now
+<a href="#booking" class="button">
+Reserve This Holiday
 </a>
 
 
@@ -610,16 +676,17 @@ Book Now
 
 
 
-
-<!-- PACKAGE 2 -->
+<!-- URBAN ADVENTURE -->
 
 
 <div class="package-card">
 
 
-<div class="banner adventure" onclick="openPackage('adventure')">
+<div class="package-banner adventure"
+onclick="openTrip('adventureTrip')">
 
 
+🎈 Urban Adventure
 
 
 </div>
@@ -628,7 +695,7 @@ Book Now
 
 
 
-<div class="details" id="adventure">
+<div class="itinerary" id="adventureTrip">
 
 
 <h2>
@@ -642,9 +709,8 @@ Book Now
 
 
 <p>
-Perfect for nature lovers and thrill seekers.
+Perfect for: Nature lovers and thrill seekers.
 </p>
-
 
 
 
@@ -666,7 +732,6 @@ Day 1 – Yogyakarta
 
 
 
-
 <h3>
 Day 2
 </h3>
@@ -680,7 +745,6 @@ Day 2
 <li>Village cycling</li>
 
 </ul>
-
 
 
 
@@ -702,7 +766,6 @@ Day 3
 
 
 
-
 <h3>
 Day 4
 </h3>
@@ -716,7 +779,6 @@ Day 4
 <li>Cultural performance</li>
 
 </ul>
-
 
 
 
@@ -737,9 +799,11 @@ Includes
 </ul>
 
 
+<br>
 
-<a class="button">
-Book Now
+
+<a href="#booking" class="button">
+Reserve This Holiday
 </a>
 
 
@@ -747,16 +811,17 @@ Book Now
 </div>
 
 
-</div><!-- PACKAGE 3 -->
+</div><!-- OUTLANDER PACKAGE -->
 
 
 <div class="package-card">
 
 
-<div class="banner outlander" onclick="openPackage('outlander')">
+<div class="package-banner outlander"
+onclick="openTrip('outlanderTrip')">
 
 
-
+🌴 Outlander Package
 
 
 </div>
@@ -764,7 +829,7 @@ Book Now
 
 
 
-<div class="details" id="outlander">
+<div class="itinerary" id="outlanderTrip">
 
 
 <h2>
@@ -778,7 +843,7 @@ Book Now
 
 
 <p>
-Perfect for relaxation and beautiful scenery.
+Perfect for: Relaxation and beautiful scenery.
 </p>
 
 
@@ -801,7 +866,6 @@ Day 1 – Bali
 
 
 
-
 <h3>
 Day 2
 </h3>
@@ -819,7 +883,6 @@ Day 2
 
 
 
-
 <h3>
 Day 3
 </h3>
@@ -833,7 +896,6 @@ Day 3
 <li>Crystal Bay</li>
 
 </ul>
-
 
 
 
@@ -857,7 +919,6 @@ Day 4
 
 
 
-
 <h3>
 Day 5
 </h3>
@@ -871,7 +932,6 @@ Day 5
 <li>Airport transfer</li>
 
 </ul>
-
 
 
 
@@ -896,15 +956,20 @@ Includes
 
 
 
-<a class="button">
-Book Now
+<br>
+
+
+<a href="#booking" class="button">
+Reserve This Holiday
 </a>
 
 
+
 </div>
 
 
 </div>
+
 
 
 </section>
@@ -916,66 +981,62 @@ Book Now
 
 
 
+<!-- BOOKING -->
 
-<!-- COMPARISON -->
 
-
-<section class="comparison">
+<section id="booking" class="booking">
 
 
 <h2 class="section-title">
-Find Your Perfect Escape
+Book Your Indome Holiday
 </h2>
 
 
-<table>
+
+<form>
 
 
-<tr>
-
-<th>Package</th>
-
-<th>Best For</th>
-
-<th>Style</th>
-
-</tr>
+<input type="text" placeholder="Full Name">
 
 
-<tr>
-
-<td>🏙️ City-Girl Holiday</td>
-
-<td>Shopping & Food</td>
-
-<td>Luxury City</td>
-
-</tr>
+<input type="email" placeholder="Email Address">
 
 
-<tr>
-
-<td>🎈 Urban Adventure</td>
-
-<td>Nature Lovers</td>
-
-<td>Adventure</td>
-
-</tr>
+<input type="tel" placeholder="Phone Number">
 
 
-<tr>
+<select>
 
-<td>🌴 Outlander</td>
+<option>Select Package</option>
 
-<td>Relaxation</td>
+<option>🏙️ City-Girl Holiday</option>
 
-<td>Beach Escape</td>
+<option>🎈 Urban Adventure</option>
 
-</tr>
+<option>🌴 Outlander Package</option>
 
 
-</table>
+</select>
+
+
+
+<input type="number" placeholder="Number of Travellers">
+
+
+<input type="date">
+
+
+<textarea placeholder="Special Requests"></textarea>
+
+
+
+<button>
+Submit Booking
+</button>
+
+
+
+</form>
 
 
 </section>
@@ -994,60 +1055,86 @@ Find Your Perfect Escape
 
 
 <h2 class="section-title">
-Guest Experiences
+Guest Reviews
 </h2>
 
 
 
-<div class="review-box">
+<div class="review">
 
-
-<p>
 ⭐⭐⭐⭐⭐
-</p>
-
 
 <p>
-"The Bali glamping experience was magical.
-Everything was planned perfectly!"
+"Indome planned our Bali holiday perfectly. 
+Every moment was unforgettable!"
 </p>
-
 
 <h3>
-— Amelia, Singapore
+— Sarah, Singapore
 </h3>
-
 
 </div>
 
 
 
+<div class="review">
 
-
-<div class="review-box">
-
-
-<p>
 ⭐⭐⭐⭐⭐
-</p>
-
 
 <p>
-"Indome Agency made our Indonesia trip
-smooth, luxurious and unforgettable."
+"The luxury hotel and experiences were amazing!"
 </p>
-
 
 <h3>
-— Ethan, Malaysia
+— Daniel, Malaysia
 </h3>
 
-
 </div>
+
 
 
 </section>
 
+
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section id="contact" class="contact">
+
+
+<h2 class="section-title">
+Contact Us
+</h2>
+
+
+<p>
+📞 +65 8888 8888
+</p>
+
+
+<p>
+📧 indomeagency@gmail.com
+</p>
+
+
+<p>
+📍 Singapore
+</p>
+
+
+<p>
+🕘 Monday - Friday | 9AM - 6PM
+</p>
+
+
+
+</section>
 
 
 
@@ -1062,24 +1149,231 @@ smooth, luxurious and unforgettable."
 
 
 <h2>
-✨ Limited Luxury Offer
+✨ Exclusive Indome Offer
 </h2>
 
 
 <p>
-Book your Indome Holiday today and receive exclusive travel benefits.
+Book your dream Indonesia escape today and enjoy premium travel benefits.
 </p>
 
 
 <br>
 
 
-<a class="button">
-Reserve Your Trip
+<a href="#booking" class="button">
+Start Booking
 </a>
 
 
-</section>
+</section><style>
+
+
+/* BOOKING */
+
+.booking{
+
+padding:90px 10%;
+
+text-align:center;
+
+}
+
+
+
+form{
+
+max-width:650px;
+
+margin:auto;
+
+background:white;
+
+padding:40px;
+
+border-radius:30px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+
+
+form input,
+form select,
+form textarea{
+
+
+width:100%;
+
+padding:15px;
+
+margin:12px 0;
+
+border-radius:15px;
+
+border:1px solid #ddd;
+
+font-family:'Poppins',sans-serif;
+
+
+}
+
+
+
+form textarea{
+
+height:120px;
+
+resize:none;
+
+}
+
+
+
+form button{
+
+background:#c9a45c;
+
+color:white;
+
+border:none;
+
+padding:15px 40px;
+
+border-radius:50px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+
+
+form button:hover{
+
+background:#a88648;
+
+}
+
+
+
+
+
+
+/* REVIEWS */
+
+
+.reviews{
+
+padding:80px 10%;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+
+
+.review{
+
+
+background:white;
+
+padding:35px;
+
+border-radius:25px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+text-align:center;
+
+}
+
+
+
+.review:first-letter{
+
+color:#c9a45c;
+
+}
+
+
+
+.review h3{
+
+color:#c9a45c;
+
+margin-top:15px;
+
+}
+
+
+
+
+
+
+/* CONTACT */
+
+
+.contact{
+
+padding:80px 10%;
+
+text-align:center;
+
+background:#fffaf2;
+
+}
+
+
+
+.contact p{
+
+font-size:18px;
+
+margin:15px;
+
+}
+
+
+
+
+
+
+
+/* OFFER */
+
+
+.offer{
+
+margin:60px 10%;
+
+padding:60px;
+
+background:#c9a45c;
+
+color:white;
+
+border-radius:35px;
+
+text-align:center;
+
+}
+
+
+
+.offer h2{
+
+font-size:45px;
+
+}
 
 
 
@@ -1088,66 +1382,73 @@ Reserve Your Trip
 
 
 
-<!-- BOOKING FORM -->
+/* FOOTER */
 
 
-<section id="contact" class="contact">
+footer{
 
+background:#3a2f25;
 
-<h2 class="section-title">
-Start Your Journey
-</h2>
+color:white;
 
+padding:35px;
 
+text-align:center;
 
-
-<form>
-
-
-<input type="text" placeholder="Your Name">
-
-
-<input type="email" placeholder="Email Address">
-
-
-<select>
-
-<option>
-Choose Package
-</option>
-
-<option>
-🏙️ City-Girl Holiday
-</option>
-
-<option>
-🎈 Urban Adventure
-</option>
-
-<option>
-🌴 Outlander Package
-</option>
-
-</select>
+}
 
 
 
-<textarea placeholder="Special Requests"></textarea>
+footer h2{
+
+color:#c9a45c;
+
+}
 
 
 
-<button>
-Submit Booking
-</button>
+
+/* MOBILE */
+
+
+@media(max-width:800px){
+
+
+header{
+
+flex-direction:column;
+
+}
+
+
+nav{
+
+margin-top:15px;
+
+}
 
 
 
-</form>
+.hero h1{
+
+font-size:50px;
+
+}
 
 
 
-</section>
+.package-banner{
 
+font-size:32px;
+
+}
+
+
+}
+
+
+
+</style>
 
 
 
@@ -1168,7 +1469,7 @@ Nothing Beats An Indome Holiday
 
 
 <p>
-© 2026 Indome Agency
+© 2026 Indome Agency | Luxury Indonesia Escapes
 </p>
 
 
@@ -1179,32 +1480,28 @@ Nothing Beats An Indome Holiday
 
 
 
-
-
-
 <script>
 
 
-function openPackage(id){
+function openTrip(id){
 
 
-let box=document.getElementById(id);
+let trip=document.getElementById(id);
 
 
 
-if(box.style.display==="block"){
+if(trip.style.display==="block"){
 
 
-box.style.display="none";
+trip.style.display="none";
 
 
 }
 
-
 else{
 
 
-box.style.display="block";
+trip.style.display="block";
 
 
 }
@@ -1218,7 +1515,8 @@ box.style.display="block";
 
 
 
-</body>
 
+
+</body>
 
 </html>
