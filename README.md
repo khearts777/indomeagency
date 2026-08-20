@@ -1,4 +1,4 @@
-<All travel plans are not exact!>
+All travel plans are not exact!
 <html lang="en">
 
 <head>
@@ -366,6 +366,15 @@ Create memories with exclusive Indonesian adventures.
 
 
 
+
+</div class=“why-card”>
+<h3>Top-tier tour guides</h3> 
+
+<p>
+Guides are trained and friendly.
+</p>
+
+
 </div>
 
 
@@ -595,7 +604,7 @@ Day 2 – Jakarta
 
 <li>Café hopping</li>
 
-<li>Visit an old town</li>
+<li>Amusement Park</li>
 
 <li>Sunset rooftop dinner</li>
 
@@ -742,7 +751,7 @@ Day 2
 
 <li>🎈 Hot-air balloon experience</li>
 
-<li>Village cycling</li>
+<li>Amusement park</li>
 
 </ul>
 
@@ -910,7 +919,7 @@ Day 4
 
 <li>🔥 Campfire</li>
 
-<li>✨ Stargazing</li>
+<li>✨ Amusement Parl</li>
 
 <li>🍖 BBQ dinner</li>
 
