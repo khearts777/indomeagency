@@ -366,18 +366,6 @@ Create memories with exclusive Indonesian adventures.
 
 
 
-
-</div class=“why-card”>
-<h3>Top-tier tour guides</h3> 
-
-<p>
-Guides are trained and friendly.
-</p>
-
-
-</div>
-
-
 </section><!-- PACKAGES SECTION -->
 
 <section id="packages" class="packages">
