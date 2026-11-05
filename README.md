@@ -366,7 +366,11 @@ Create memories with exclusive Indonesian adventures.
 
 
 
-</section><!-- PACKAGES SECTION -->
+
+
+
+
+<!-- PACKAGES SECTION -->
 
 <section id="packages" class="packages">
 
